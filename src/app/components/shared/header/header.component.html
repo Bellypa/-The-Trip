@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <div class="inner-nav d-flex justify-content-between">
+            <!-- <div class="border border-dark d-flex justify-content-end, center, around, between">
+                <button class="btn btn-info btn-lg">LARGE</button>
+                <button class="btn btn-warning">SMALL</button>
+            </div> -->
+
+            <div class="logo-side">
+                <a class="navbar-brand" [routerLink]="['/welcome']">
+                    <img src="assets/images/logo.png" width="300px"></a>
+            </div>
+
+            <div class="menu-side">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" [routerLink]="['/welcome']">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/about-us']">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</nav>
+
+
+
+
+<div id="header">
+    <!-- <ul class="pages">
+            <li><a [routerLink]="['/welcome']">Home</a></li>
+            <li><a [routerLink]="['/about-us']">About us</a></li>
+            <li><a [routerLink]="['/contact']">Contact Page</a></li>
+        </ul> -->
+    <div class="break"></div>
+    <!-- <h1>
+        <a [routerLink]="['/welcome']">
+            <img src="assets/images/ad468x60.gif" alt="" /></a>
+    </h1> -->
+    <!-- <h1><a [routerLink]="['/welcome']">The TRIP</a></h1> -->
+    <!-- <div class="ad">
+        <form>
+            <p>Search: </p>
+            <input type="text" name="s" id="s" value="" />
+            <button type="submit">Go</button>
+        </form>
+    </div> -->
+    <ul class="categories">
+        <li><a [routerLink]="['/featured']">Featured</a></li>
+        <li><a [routerLink]="['/tourism']">Tourism</a></li>
+        <li><a [routerLink]="['/arts']">Art</a></li>
+        <li><a [routerLink]="['/kitchens']">Kitchen</a></li>
+        <li><a [routerLink]="['/galleries']">Gallery</a></li>
+        <li><a [routerLink]="['/reviews']">Reviews</a></li>
+    </ul>
+</div>

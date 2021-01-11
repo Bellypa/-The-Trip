@@ -1,0 +1,17 @@
+.detail-container{
+    padding-top: 15px;
+    .first-img{
+        float: left;
+        margin: 10px;
+        
+        // height: 150px;
+        // width: 150px;
+        // border: 10px solid transparent;
+        // border-image: url(border.png) 30 stretch;
+    }
+
+    .second-img{
+        float: right;
+        margin: 10px;
+    }
+}
